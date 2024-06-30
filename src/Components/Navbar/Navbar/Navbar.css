@@ -1,0 +1,26 @@
+.container{
+    background: rgb(1, 41, 11);
+    height: 10vh;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-img{
+    height: 5vh;
+    width: 17vw;
+}
+.navbar-loginButton{
+    margin-left: 33vw;
+    margin-right: 5vw;
+    padding: 1vh 1vw;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navbar-loginButton:hover{
+    color: rgb(29, 109, 29);
+}

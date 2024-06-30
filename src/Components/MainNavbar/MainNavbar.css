@@ -1,0 +1,62 @@
+.container{
+    background: rgb(1, 41, 11);
+    height: 8vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainNavbar-img{
+    height: 3.5vh;
+    width: 12vw;
+    background: rgb(1, 41, 11);
+    margin-left: 2vw;
+}
+
+.nav-section{
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-pages{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 3vw;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.nav-pages.nav-pages:hover{
+    border-bottom: 2px solid white;
+}
+.navbar-loginButton{
+    /* margin-left: 65vw; */
+    padding: 1vh 1vw;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background: rgb(1, 41, 11);
+    color: antiquewhite;
+    border: 2px solid white;
+}
+
+.navbar-loginButton:hover{
+    background:white ;
+    color: rgb(29, 109, 29);
+    transition:all 0.4s ease-in 0;
+}
+
+.navbar-loginButton2{
+    padding: 1vh 1vw;
+    border-radius: 25px;
+    margin-right: 3vw;
+    color:green ;
+    cursor: pointer;
+
+}
+
+.navbar-loginButton2:hover{
+    background: rgb(187, 228, 164);
+    
+}

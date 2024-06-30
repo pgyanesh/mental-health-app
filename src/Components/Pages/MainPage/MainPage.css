@@ -1,0 +1,21 @@
+.main-page-container{
+    background: rgb(1, 41, 11);
+    height: 100vh;
+    width: auto;
+}
+
+.main-page-banner{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.main-page-banner-p{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    color: white;
+    font-size: 2rem;
+}
